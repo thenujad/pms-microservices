@@ -81,6 +81,6 @@ This is a project management web application built using microservices architect
 2. Navigate to each microservice directory and build using Maven:
    
    ```bash
-   cd <microservice-directory>
+   cd pms-microservices
    mvn clean install
 
