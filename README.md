@@ -73,7 +73,12 @@ This is a project management web application built using microservices architect
 
 ## Getting Started
 
-1. **Navigate to each microservice directory and build using Maven:**
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+
+2. **Navigate to each microservice directory and build using Maven:**
    
    ```bash
    cd <microservice-directory>
