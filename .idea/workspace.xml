@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="15347033-5e46-4282-8d24-18d5338b04cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attendance-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/attendance-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Learn/NIBM DSE/Thes_Dip_23.1F/Final project/webapp/test/backend/backend/pom.xml",
+    "last_opened_file_path": "D:/Learn/NIBM DSE/Thes_Dip_23.1F/Final project/webapp/pms-backend/api-gateway/pom.xml",
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
   }
 }]]></component>
