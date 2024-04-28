@@ -17,31 +17,27 @@ spring:
         - id: attendance-service
           uri: http://localhost:8070
           predicates:
-            - Path=/api/v1/users/**
+            - Path=/api/pms/attendance/**
         - id: auth-service
           uri: http://localhost:8071
           predicates:
-            - Path=/api/v1/posts/**
-        - id: config-service
-          uri: http://localhost:8072
-          predicates:
-            - Path=/api/v1/comments/**
-        - id: employee-service
+            - Path=/api/pms/auth/**
+        - id: payroll-service
           uri: http://localhost:8073
           predicates:
-            - Path=/api/v1/status/**
-        - id: payroll-service
+            - Path=/api/pms/pay/**
+        - id: project-service
           uri: http://localhost:8074
           predicates:
-            - Path=/api/v1/status/**
-        - id: project-service
+            - Path=/api/pms/project/**
+        - id: supplier-service
           uri: http://localhost:8075
           predicates:
-            - Path=/api/v1/status/**
-        - id: supplier-service
-          uri: http://localhost:8076
+            - Path=/api/pms/supplier/**
+        - id: employee-service
+          uri: http://localhost:8072
           predicates:
-            - Path=/api/v1/status/**
+            - Path=/api/pms/employee/**
       default-filters:
         - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
       globalcors:
