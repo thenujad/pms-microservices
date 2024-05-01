@@ -10,7 +10,7 @@ public class Payroll {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String id;
+    private String payrollId;
 
     @OneToOne
     @JoinColumn(name = "employee_id", nullable = false)

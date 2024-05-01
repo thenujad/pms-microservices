@@ -12,11 +12,11 @@ public class Attendance {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String id;
+    private String attendanceId;
 
     @ManyToOne
     @JoinColumn(name = "employee_id", nullable = false)
-    private Employee employee;
+    private EmployeeDTO employee;
 
     @Column(nullable = false)
     private LocalDateTime checkInTime;
