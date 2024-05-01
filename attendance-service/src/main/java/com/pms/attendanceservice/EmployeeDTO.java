@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 public class EmployeeDTO {
-
+    // DTO Class( Data transfer Object Class)
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;

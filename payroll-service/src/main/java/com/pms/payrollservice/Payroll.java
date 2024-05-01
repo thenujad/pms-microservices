@@ -14,7 +14,7 @@ public class Payroll {
 
     @OneToOne
     @JoinColumn(name = "employee_id", nullable = false)
-    private Employee employee;
+    private EmployeeDTO employee;
 
     @Column(nullable = false)
     private Long salary;
