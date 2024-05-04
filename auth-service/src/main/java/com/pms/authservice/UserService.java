@@ -27,11 +27,14 @@ public class UserService {
         } else {
             throw new RuntimeException(" Invalid username or password ");
         }
-
     }
 
     public User getUserProfile(String userId) {
         return userRepository.findById(userId)
                 .orElseThrow(() -> new RuntimeException("User not found"));
+    }
+
+    public void deleteUser(String userId) {
+        userRepository.deleteById(userId);
     }
 }

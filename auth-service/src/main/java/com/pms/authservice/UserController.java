@@ -20,6 +20,7 @@ public class UserController {
             return ResponseEntity.badRequest().body("Error: " + e.getMessage());
         }
     }
+
     @PostMapping("/login")
     public ResponseEntity<User> loginUser(@RequestBody User loginRequest) {
         User user = userService.loginUser(loginRequest.getUsername(), loginRequest.getPassword());
@@ -31,4 +32,11 @@ public class UserController {
         User user = userService.getUserProfile(userId);
         return ResponseEntity.ok(user);
     }
+
+    @DeleteMapping("/{userId}")
+    public ResponseEntity<?> deleteUser(@PathVariable String userId) {
+        userService.deleteUser(userId);
+        return ResponseEntity.ok().build();
+    }
+
 }
